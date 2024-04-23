@@ -49,3 +49,31 @@ mance relative to classification accuracy and
 Using
  Stacking to Enhance Model Performances
  on Rating Predictions for Food Recipe.
+
+
+## Battery Recycling 
+https://github.com/haotianxu2021/hackIoT
+
+Finetuning a pre-trained image classification on the battery classification task. Us3data augmentation techniques to generate more samples. Deploy the model on the Streamlit using Python.
+
+## Crop Yield Forecasting
+https://github.com/haotianxu2021/EY_Data_Challenge_2023_Crop_Forecast
+
+Process satellite data and turn them into features by calculating various indices. Predict crop yield using RandomForest (also explore other models).
+
+## Emotion Recognition and Recommendation
+https://github.com/gridsusc/mindspark-10-team-Renaissaince
+
+ ● Designed and developed an emotion recognition and recommendation system on the web application using Streamlit to
+ recognize users’ emotions and recommend music to help them relax.
+ 
+ ● Built a multi-model system to recognize emotions, including an image classification model (Xception) to take photo inputs and a
+ speech sentiment analysis model to take audio inputs.
+ 
+ ● BuiltanXGBoostclassifier to assign songs to different emotion labels and give recommendations based on users’ emotions
+
+## Marshall Data Competition 2021
+https://github.com/haotianxu2021/Marshall_data_competition_2021
+
+Explore a shipping company dataset, process it, and predict shipping time.
+
