@@ -1,5 +1,21 @@
 # Machine Learning Projects Collection
 
+## Transformer Translation Analysis
+https://hub.zenoml.com/project/ac445ff2-d77b-4c4e-b31c-251e437bd9ce/zh-en%20Translation
+
+In this analysis, we specifically focus on Simplified Chinese-to-English translation tasks. We evaluate a subset of the WMT19 zh-en dataset (Foundation, 2019) using the pretrained transformer
+model from (Tiedemann and Thottingal, 2020).
+We use SacreBLEU, introduced by (Post, 2018),
+as the evaluation metric for the generated translations. In the latter part of this report, we will refer
+to this metric simply as BLEU. We conduct a detailed analysis of the behavior of the translation
+transformer model through a customized project
+on the ZenoML platform (Cabrera et al., 2023),
+where we can slice the data into categorized subsets and observe the model’s performance.
+Our analysis reveals various translation errors,
+such as name and term inaccuracies, missing information, overly summarized translations, and issues stemming from the dataset quality. These errors highlight the limitations of the current model,
+the impact of noisy data, and the complexities of
+the Chinese language. We suggest that employing larger models, cleaner datasets, specialized tokenizers, and fine-tuning techniques could significantly enhance translation accuracy
+
 ## Adversarial Example
  In this project, we investigate techniques for creating adversarial examples aimed at neural networks, specifically using the MNIST dataset
  and targeting a pretrained multi-layer percep
